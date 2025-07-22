@@ -5,7 +5,6 @@ ENTC A3
 
 #include <iostream>
 using namespace std;
-
 int main() {
     int password = 678;  
     int user_password;
@@ -24,7 +23,7 @@ int main() {
                 cout<<"No attempts left. System locked."<<endl;
             }
         }
-    }    return 0;
+    }return 0;
 }
 /*Output:-
 Enter the password: 464
