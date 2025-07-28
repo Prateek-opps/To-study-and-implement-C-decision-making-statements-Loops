@@ -1,3 +1,9 @@
+Prateek Sinha
+
+24070123077
+
+ENTC A3
+
 # C++ Programs Collection
 
 This repository includes various beginner-level C++ programs demonstrating control structures like loops, conditionals, and user input/output formatting. The goal is to understand the basic syntax and logic building in C++.
