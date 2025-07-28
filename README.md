@@ -115,6 +115,18 @@ Basic triangle patterns can be printed by controlling the number of stars in eac
    - Loop `j` from 1 to `i`.
    - Print stars.
 
+Output:-
+
+*
+
+**
+
+***
+
+****
+
+*****
+
 **✅ Conclusion:**
 Teaches how to print increasing patterns using simple nested loops.
 
@@ -130,6 +142,25 @@ Nested loops can be used to iterate over multiple levels. Each loop can perform 
    - Print "Outer" with `i`.
    - Loop `j` from 1 to 3 (inner loop).
      - Print "Inner" with `j`.
+
+Output:-
+
+Outer:1
+
+Inner:1
+
+Inner:2
+
+Inner:3
+
+Outer:2
+
+Inner:1
+
+Inner:2
+
+Inner:3
+
 
 **✅ Conclusion:**
 Clarifies how inner loops work within outer loops.
@@ -147,6 +178,18 @@ To align triangles to the right, we print spaces before stars. The number of spa
    - Print `n - i` spaces.
    - Print `i` stars.
 
+Output:-
+
+   *
+   
+   **
+  
+  ***
+ 
+ ****
+
+*****
+
 **✅ Conclusion:**
 Combines spacing and pattern logic for formatted output.
 
@@ -160,6 +203,20 @@ The modulus operator (`%`) is used to determine divisibility. Even numbers have 
 **📌 Algorithm:**
 1. Loop from `i = 0` to `10`.
 2. If `i % 2 == 0`, print `i`.
+
+Output:-
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
 
 **✅ Conclusion:**
 Demonstrates use of conditional statements inside loops.
@@ -176,6 +233,25 @@ Programs can control access using conditionals and loops. Limited attempts add b
 2. Allow up to 3 user attempts.
 3. If correct, unlock system.
 4. Else, decrement attempt and retry or lock system.
+
+Output:-
+
+Enter the password: 464
+
+Incorrect Password. Try again. Attempts left: 2
+
+Enter the password: 
+
+6 
+
+
+Incorrect Password. Try again. Attempts left: 1
+
+Enter the password: 
+
+8 
+
+No attempts left. System locked.
 
 **✅ Conclusion:**
 Practices input validation, `while` loops, and conditionals.
@@ -194,6 +270,10 @@ Numbers can be reversed by extracting digits using modulo and forming a new numb
    - Update reversed number.
    - Remove digit from original number using `/ 10`.
 
+Output:-
+
+Reversed number:77032
+
 **✅ Conclusion:**
 Teaches number manipulation using loops and arithmetic operations.
 
@@ -207,6 +287,20 @@ Loops are used to execute repeated tasks efficiently.
 **📌 Algorithm:**
 1. Loop from 0 to 5.
 2. Print `"SIT"` each iteration.
+
+Output:-
+
+SIT
+
+SIT
+
+SIT
+
+SIT
+
+SIT
+
+SIT
 
 **✅ Conclusion:**
 Simple use of loop for repeated output.
