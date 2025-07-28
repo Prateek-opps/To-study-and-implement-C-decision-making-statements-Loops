@@ -56,6 +56,22 @@ Nested loops allow iteration over multiple dimensions (like rows and columns). H
    - For each row, print `i` numbers starting from `num`.
    - Increment `num` accordingly.
 
+Output:-
+
+Enter number of rows: 6
+
+1 
+
+2 3 
+
+4 5 6 
+
+7 8 9 10 
+
+11 12 13 14 15 
+
+16 17 18 19 20 21 
+
 **✅ Conclusion:**
 Helps understand nested loops and control of variables inside loop bodies.
 
