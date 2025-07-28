@@ -16,6 +16,29 @@ A `while` loop is a control structure that repeatedly executes a block of code a
    - Increment `i`.
    - Print a newline.
 
+Output:-
+1
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+
+
 **✅ Conclusion:**
 Introduces the use of `while` loops and basic output formatting.
 
