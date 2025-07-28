@@ -124,13 +124,9 @@ Basic triangle patterns can be printed by controlling the number of stars in eac
 Output:-
 
 *
-
 **
-
 ***
-
 ****
-
 *****
 
 **✅ Conclusion:**
