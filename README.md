@@ -89,6 +89,16 @@ Pattern printing requires understanding how to manipulate spacing and symbols us
 3. Loop to print lower half:
    - Reverse the logic of the upper half.
 
+Output:-
+
+* * * * * * * 
+  * * * * * 
+    * * * 
+      * 
+    * * * 
+  * * * * * 
+* * * * * * * 
+
 **✅ Conclusion:**
 Demonstrates loop nesting, symmetry, and output formatting.
 
