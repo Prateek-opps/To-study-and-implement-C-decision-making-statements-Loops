@@ -1,3 +1,9 @@
+Prateek Sinha
+
+24070123077
+
+ENTC A3
+
 # 📘 C++ Programs Collection
 
 This repository contains a variety of C++ programs that demonstrate foundational programming concepts such as loops, conditionals, pattern printing, and input/output handling. These programs are excellent for beginners to develop a strong understanding of control flow and syntax in C++.
