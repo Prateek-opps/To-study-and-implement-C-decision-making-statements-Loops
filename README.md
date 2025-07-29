@@ -1,28 +1,23 @@
-Prateek Sinha
-
-24070123077
-
-ENTC A3
-
-# 📘 C++ Programs Collection
+# C++ Programs Collection
 
 This repository contains a variety of C++ programs that demonstrate foundational programming concepts such as loops, conditionals, pattern printing, and input/output handling. These programs are excellent for beginners to develop a strong understanding of control flow and syntax in C++.
 
 ---
 
-## 🔹 Program 1: Print Numbers 1 to 20
+## Program 1: Print Numbers 1 to 20
 
-**🎯 Theory:**
+**Theory:**  
 A `while` loop is a control structure that repeatedly executes a block of code as long as a specified condition remains true.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Initialize a counter `i = 0`.
 2. While `i < 20`, do:
    - Print `i + 1` followed by a space.
    - Increment `i`.
    - Print a newline.
 
-Output:-
+**Output:**
+```
 1
 2 
 3 
@@ -42,61 +37,57 @@ Output:-
 17 
 18 
 19 
-20 
+20
+```
 
-
-**✅ Conclusion:**
+**Conclusion:**  
 Introduces the use of `while` loops and basic output formatting.
 
 ---
 
-## 🔹 Program 2: Number Triangle
+## Program 2: Number Triangle
 
-**🎯 Theory:**
+**Theory:**  
 Nested loops allow iteration over multiple dimensions (like rows and columns). Here, they're used to print increasing numbers in a triangle pattern.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Input the number of rows.
 2. Initialize a counter `num = 1`.
 3. Loop over rows (i from 1 to n):
    - For each row, print `i` numbers starting from `num`.
    - Increment `num` accordingly.
 
-Output:-
-
+**Output:**
+```
 Enter number of rows: 6
 
 1 
-
 2 3 
-
 4 5 6 
-
 7 8 9 10 
-
 11 12 13 14 15 
+16 17 18 19 20 21
+```
 
-16 17 18 19 20 21 
-
-**✅ Conclusion:**
+**Conclusion:**  
 Helps understand nested loops and control of variables inside loop bodies.
 
 ---
 
-## 🔹 Program 3: Diamond Star Pattern
+## Program 3: Diamond Star Pattern
 
-**🎯 Theory:**
+**Theory:**  
 Pattern printing requires understanding how to manipulate spacing and symbols using nested loops. Symmetric shapes involve reversing patterns.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Set `n = 7` for the total width.
 2. Loop to print upper half of diamond:
    - Print increasing spaces and decreasing stars.
 3. Loop to print lower half:
    - Reverse the logic of the upper half.
 
-Output:-
-
+**Output:**
+```
 * * * * * * * 
   * * * * * 
     * * * 
@@ -104,225 +95,199 @@ Output:-
     * * * 
   * * * * * 
 * * * * * * * 
+```
 
-**✅ Conclusion:**
+**Conclusion:**  
 Demonstrates loop nesting, symmetry, and output formatting.
 
 ---
 
-## 🔹 Program 4: Left-Aligned Triangle of Stars
+## Program 4: Left-Aligned Triangle of Stars
 
-**🎯 Theory:**
+**Theory:**  
 Basic triangle patterns can be printed by controlling the number of stars in each row based on the row number.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Set `n = 5`.
 2. Loop `i` from 1 to `n`.
    - Loop `j` from 1 to `i`.
    - Print stars.
 
-Output:-
-
+**Output:**
+```
 *
 **
 ***
 ****
 *****
+```
 
-**✅ Conclusion:**
+**Conclusion:**  
 Teaches how to print increasing patterns using simple nested loops.
 
 ---
 
-## 🔹 Program 5: Nested Loop with Labels
+## Program 5: Nested Loop with Labels
 
-**🎯 Theory:**
+**Theory:**  
 Nested loops can be used to iterate over multiple levels. Each loop can perform independent tasks.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Loop `i` from 1 to 2 (outer loop).
    - Print "Outer" with `i`.
    - Loop `j` from 1 to 3 (inner loop).
      - Print "Inner" with `j`.
 
-Output:-
-
+**Output:**
+```
 Outer:1
-
 Inner:1
-
 Inner:2
-
 Inner:3
-
 Outer:2
-
 Inner:1
-
 Inner:2
-
 Inner:3
+```
 
-
-**✅ Conclusion:**
+**Conclusion:**  
 Clarifies how inner loops work within outer loops.
 
 ---
 
-## 🔹 Program 6: Right-Aligned Triangle of Stars
+## Program 6: Right-Aligned Triangle of Stars
 
-**🎯 Theory:**
+**Theory:**  
 To align triangles to the right, we print spaces before stars. The number of spaces decreases as stars increase.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Set `n = 5`.
 2. Loop `i` from 1 to `n`:
    - Print `n - i` spaces.
    - Print `i` stars.
 
-Output:-
-
-   *
-   
+**Output:**
+```
+    *
    **
-  
   ***
- 
  ****
-
 *****
+```
 
-**✅ Conclusion:**
+**Conclusion:**  
 Combines spacing and pattern logic for formatted output.
 
 ---
 
-## 🔹 Program 7: Print Even Numbers from 0 to 10
+## Program 7: Print Even Numbers from 0 to 10
 
-**🎯 Theory:**
+**Theory:**  
 The modulus operator (`%`) is used to determine divisibility. Even numbers have no remainder when divided by 2.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Loop from `i = 0` to `10`.
 2. If `i % 2 == 0`, print `i`.
 
-Output:-
-
+**Output:**
+```
 0
-
 2
-
 4
-
 6
-
 8
-
 10
+```
 
-**✅ Conclusion:**
+**Conclusion:**  
 Demonstrates use of conditional statements inside loops.
 
 ---
 
-## 🔹 Program 8: Password Authentication System
+## Program 8: Password Authentication System
 
-**🎯 Theory:**
+**Theory:**  
 Programs can control access using conditionals and loops. Limited attempts add basic security.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Set correct password as a constant.
 2. Allow up to 3 user attempts.
 3. If correct, unlock system.
 4. Else, decrement attempt and retry or lock system.
 
-Output:-
-
+**Output:**
+```
 Enter the password: 464
-
 Incorrect Password. Try again. Attempts left: 2
 
-Enter the password: 
-
-6 
-
-
+Enter the password: 6
 Incorrect Password. Try again. Attempts left: 1
 
-Enter the password: 
-
-8 
-
+Enter the password: 8
 No attempts left. System locked.
+```
 
-**✅ Conclusion:**
+**Conclusion:**  
 Practices input validation, `while` loops, and conditionals.
 
 ---
 
-## 🔹 Program 9: Reverse an Integer
+## Program 9: Reverse an Integer
 
-**🎯 Theory:**
+**Theory:**  
 Numbers can be reversed by extracting digits using modulo and forming a new number by multiplying the result by 10 and adding each digit.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Set `reversed = 0`.
 2. While number > 0:
    - Get last digit using `% 10`.
    - Update reversed number.
    - Remove digit from original number using `/ 10`.
 
-Output:-
+**Output:**
+```
+Reversed number: 77032
+```
 
-Reversed number:77032
-
-**✅ Conclusion:**
+**Conclusion:**  
 Teaches number manipulation using loops and arithmetic operations.
 
 ---
 
-## 🔹 Program 10: Print "SIT" 6 Times
+## Program 10: Print "SIT" 6 Times
 
-**🎯 Theory:**
+**Theory:**  
 Loops are used to execute repeated tasks efficiently.
 
-**📌 Algorithm:**
+**Algorithm:**
 1. Loop from 0 to 5.
 2. Print `"SIT"` each iteration.
 
-Output:-
-
+**Output:**
+```
 SIT
-
 SIT
-
 SIT
-
 SIT
-
 SIT
-
 SIT
+```
 
-**✅ Conclusion:**
+**Conclusion:**  
 Simple use of loop for repeated output.
 
 ---
 
-## 📚 Final Summary
+## Final Summary
 
 These programs collectively introduce:
 
-- ✅ **Loops** (`for`, `while`)
-- ✅ **Nested Loops**
-- ✅ **Conditionals** (`if`, `else`)
-- ✅ **User Input and Output**
-- ✅ **Pattern Printing**
-- ✅ **Basic Authentication Logic**
-- ✅ **Mathematical Computation**
+- Loops (`for`, `while`)
+- Nested Loops
+- Conditionals (`if`, `else`)
+- User Input and Output
+- Pattern Printing
+- Basic Authentication Logic
+- Mathematical Computation
 
 They are essential for anyone beginning with C++ and looking to develop logical thinking and problem-solving through code.
-
----
-
-
